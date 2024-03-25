@@ -1,0 +1,129 @@
+/* Reset stilleri */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; /* Dark tema için arka plan rengi */
+    color: #fff; /* Dark tema için metin rengi */
+    padding: 20px;
+}
+
+/* Header stilleri */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content .logo {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.header-content .logo img {
+    width: 30px; /* Logo boyutunu ayarlayın */
+    margin-right: 5px;
+}
+
+.header-content h1 {
+    font-size: 18px; /* Başlık boyutunu ayarlayın */
+}
+
+/* Ana içerik stilleri */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #444; /* Dark tema için portfolyo öğesi arka plan rengi */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer; /* Resimlere tıklanabilir hale getirir */
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    max-height: 200px; /* Resimlerin maksimum yüksekliğini ayarlayın */
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item p {
+    margin-top: 10px;
+}
+
+/* Lokasyonlar bölümü stilleri */
+#locations {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.location {
+    margin: 0 10px;
+}
+
+.location img {
+    width: 100%; /* Resimlerin genişliğini ayarlayın */
+    max-width: 300px; /* Maksimum genişlik belirleyin */
+    border-radius: 10px;
+}
+
+/* Footer stilleri */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #333; /* Dark tema için footer arka plan rengi */
+}
+
+.footer-content {
+    color: #ccc; /* Dark tema için footer metin rengi */
+}
+
+.footer-content .social-icons a {
+    margin-right: 10px;
+}
+
+.footer-content .social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.footer-content .social-icons img:hover {
+    transform: scale(1.2);
+}
+
+.footer-content .footer-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.footer-content .footer-links a:hover {
+    text-decoration: underline;
+}
+

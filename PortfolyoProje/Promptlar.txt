@@ -1,0 +1,62 @@
+
+ChatGPT Promptları:
+
+----HTML, CSS için CDN'yi kullanman gerekiyor.
+Web sitesi mobil uyumlu ve duyarlı olmalıdır.
+Ayrıca düzen ve stil açısından site yapısında Twitter Bootstrap CSS sınıflarının en son sürümünü
+de içermelidir.
+HTML, CSS ve Javascript kodlarini ayri ciktilar olarak vermen onemlidir.
+Ayrıca sayfa içeriğindeki başlıklara dahili bağlantılar içeren bir gezinme menüsü de eklemelisiniz. Yazdığınız kodların hiçbirine açıklama yapmayın.
+Her şeyi anlıyor musun?
+Tüm gereklilikleri anlıyorsan lütfen evet veya hayır şeklinde yanıt ver.
+
+
+----Merhaba! Bir proje oluşturmanı istiyorum. Bu projeyi sana tanımlamam gerekirse proje; kısaca html,css ve javascript kullanarak oluşturulacak bir portfolyo sitesi olarak düşünebilirsin.
+
+Kural1: Semantik Etiketlerin Kullanılması: Web sitesinin HTML yapısında, semantik
+etiketlerin(header, main, nav, section, article, aside, footer) kullanılmasını istiyorum.
+
+Kural2: Responsive Tasarım(Opsiyonel): Oluşturulan web sitesi, farklı cihaz ve ekran boyutlarına
+uyumlu olmalıdır. Mobil, tablet ve masaüstü cihazlarda düzgün bir şekilde görüntülenmeli ve
+kullanıcı deneyimini artırmak için tasarımın her boyutta optimize edilmiş olması
+gerekmektedir. 
+
+Bu portfolyoyu sana tanımlıyorum:
+1- Bu site bir hamburger protfolyo sitesi olacak 8 farklı hamburger çeşidi olmalı. Bu hamburgerler 2 şer şekilde alt alta dizilmeli.
+2- Sitenin en üst tarafında ise siteyi betimleyen bir isim ve logo yaratmalısın. Fakat bu kısımda hayal gücünü kullanmanı istiyorum. Gerekli UI kısmını senin modern bir şekilde keyifli tasarım dilini  görmek isterim.
+3- Sitenin en altında bir şerit üzerinde herhangi sitede olduğu gibi iletişim gibi bilgilerin olabileceği,site sahibi gibi temel ögeleri koyabileceğimiz alan olmalı.
+4- Portfolyoyu oluşturan resimlerin üzerine fare ile gelindiğinde tıklanmasına gerek kalmadan resimleri bir efekt ile iki katı büyüten ve eğer arzu edilirse bu resimler hakkında açıklama yapabilecek bir text metni alanı yaratmanı istiyorum.
+
+----HTML,css ve javascprit kullanma gerekiyor. sana bahsettiğim Kuralları uygulayarak semanter dokuyu görmek istiyorum. Dosyaları proje dahil et.
+
+
+---Şimdi bu websitesini düzenlemeye başlayacağız. En altta bulunan sosyal medya adreslerinin bulunacağı alana sosyal medya iconları eklenecek. Burgerlerin altında kalan alana ise, 2 adet mekanı resmi eklenecek bu mekan resimleri burgerlere oranla tabiiki daha büyük olmalı. En üst tarafta Site adı ve ikonu yeri ayrılmalı tam ortada olmalı: Site adı 2XBurger olacak. Bu site adı ve ikonu tıklanabilir ve anasayfaya yönlendirilebilir şekilde kodlanmalı. Bunun hemen altında ise tıklanabilir şekilde. Lokasyonlar, Franchaise, Tarihçe yazılı tıklanabilir ve ynelendirilir site etiketleri olmalı. Anlıyor musun?
+
+----Lütfen şunlara dikkat ederek html ve css son halini tekrar yaz:
+1. En üst terafta hem font ile orantılı küçük boyutlu logo olmalı hemde "2XBurger" yazısı ve bunlar en üst-ortaya hizalanmalı.
+2. Hamburger fotoğraf ve yazıları 2 şer 2 şer alt alta olmalı. Onun ise ehmen altında 1 adet location1 resmi olmalı ve onunda altında location2 resmi olmalı.
+
+----
+
+
+
+
+Portfolio Promptları: from (stablediffusionweb.com)
+
+1.hamburger, realistic, in:  Ground beef, lettuce, tomato, onion, pickles, ketchup, mustard, sesame bread
+2.burger, realistic, esthetic perspective, Ground beef, double cheddar cheese, lettuce, tomato, onion, pickles, ketchup, mustard, sesame bread
+3.burger, realistic, esthetic perspective, Chicken breast, lettuce, tomato, onion, pickles, mayonnaise, barbecue sauce, corn flour tortillas
+4.fish burger with no sesame no tomato, realistic, esthetic perspective, appetizer, Fish fillet, lettuce, pickles, tartar sauce, toasted sesame seeds
+5.burger, backround is outdoor,summer,realistic, esthetic perspective, appetizer, Two pieces of ground beef, cheddar cheese, lettuce, tomato, onion, pickles, ketchup, mustard, sesame bread 
+6.burger, backround positive vibes,summer, realistic, esthetic perspective, appetizer, cherry sauce, cheddar cheese, lettuce, tomato, onion, pickle, mayonnaise, pepper bread, nearby burger: cherries
+7.Bao bao bread, ground beef, teriyaki sauce, lettuce, tomato, pickle, hot sauce, sesame
+8.Beef-lamb mixed minced meat, chechil cheese, lettuce, tomato, onion, pickle, mustard-mayonnaise sauce, village bread
+
+Image Prompts:
+
+1.a minimalistic cute burger design with positive color contrast. (https://www.logoai.com/icon-generator)
+2. minimalistic burger restaurant.(https://pixlr.com/tr/image-generator/)
+3.minimal restaurant customers enjoy sitting and eating burgers, wide angle.(https://pixlr.com/tr/image-generator/)
+4.burger restaurant customers enjoy sitting and eating. realistic cute contrast. photorealism.(https://pixlr.com/tr/image-generator)
+
+
